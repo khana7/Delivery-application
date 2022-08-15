@@ -1,0 +1,140 @@
+.cafe_info{
+    display: flex;
+    
+}
+
+.cafe_info_left_title{
+
+    padding-top: 240px;
+    color:#35B8BE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:50px;
+}
+
+.cafe_info_left{
+    width: 576px;
+    text-align: left;
+}
+.cafe_info_left_text{
+
+    color:#546285;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:18px; 
+    padding-top: 29px;
+}
+
+.cafe_info_left_button{
+    margin-top:47px ;
+    background-color: #35B8BE;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:17px;
+    border-radius: 6px;
+    border: none;
+}
+
+.cafe_info_left_btn{
+    margin: 20px;
+
+}
+.cafe_info_right_image{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.cafe_images{
+    display: flex;
+    justify-content: space-between;
+}
+.cafe_image2{
+    background: url('../assets/img/support.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 666px;
+    height: 640px; */
+    color:#FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cafe_image2 span{
+    color:#1B9097
+    
+}
+
+
+
+
+/* .order_button{
+    position:absolute;
+    top:410px;
+    right: 461px;
+    padding: 20px;
+    background-color:#FFFFFF ;
+    color: #35B8BE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:17px;
+    border-radius: 6px;
+    border: 1px solid rgba(97, 114, 131, 0.2);
+}  */
+
+
+@media(max-width:998px){
+    .cafe_info_left_title,  .cafe_info_left_text{
+        text-align: left;
+        width: 350px;
+        margin-left: 30px;
+
+    }
+    
+   
+    .cafe_info{
+        justify-content: center;
+        padding-bottom: 120px;
+    }
+
+   
+
+    .cafe_info_right_image{
+        display: none;
+    }
+   
+    .cafe_info_left_button{
+        margin-left: 30px;
+
+    }
+
+}
+
+@media(max-width:998px){
+    .cafe_content{
+        flex-direction: column;
+    }
+
+    .cafe_images{
+        display: block;
+        flex-direction: column;
+    }
+
+    .table_image{
+        width: 350px;
+
+    }
+
+    .cafe_image2{
+        justify-content: center;
+        width: 350px;
+        margin-left: 20px;
+
+    }
+   
+}
+
+    

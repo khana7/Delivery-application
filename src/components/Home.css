@@ -1,0 +1,67 @@
+.home{
+    background-color: #F5FBFC;
+
+}
+
+.home_info{
+    display: flex;
+}
+
+.home_left{
+    text-align: left;
+    max-width: 578px;
+}
+
+.home_title{
+    max-width: 374px;
+    padding-top: 151px;
+    color:#35B8BE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:50px;
+}
+
+.home_text{
+    padding-top: 29px;
+    color:#546285;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+}
+
+.home_button{
+    margin-top:47px ;
+    background-color: #35B8BE;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:17px;
+    border-radius: 6px;
+    border: none;
+    
+}
+
+.home_macaron_image{
+    padding-bottom: 140px;
+}
+
+.home_btn{
+    margin: 20px;
+}
+
+@media (max-width: 998px) {
+    .home_macaron_image{
+        display: none;
+    }
+    
+    .home_info{
+        justify-content: center;
+    }
+
+    .home_left{
+        padding-bottom: 90px;
+        margin-left: 30px;
+        text-align: left;
+        width: 350px;
+    }
+}

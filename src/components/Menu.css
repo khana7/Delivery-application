@@ -1,0 +1,213 @@
+.menu{
+    background-color: #F5FBFC;
+    padding-top: 154px;
+}
+
+.menu_title{
+    color:#35B8BE;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:50px;
+}
+
+.menu_text{
+    letter-spacing: 0.36px;
+    padding-top: 26px;
+    color:#546285;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:16px; 
+}
+
+.menu_text span{
+    color:#35B8BE;
+}
+
+.menu_button1{
+    /* justify-content: space-around; */
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    margin-top: 50px; 
+    margin-left: 30px;
+    width: 147px;
+
+}
+.menu_burgers_btn{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin:20px;
+}
+
+.menu_button2{
+    background: #F5FBFC;
+    border-radius: 6px;
+    border: 1px solid rgba(97, 114, 131, 0.2);
+    margin-top: 50px; 
+    margin-left: 30px;
+    width: 147px;
+
+
+}
+
+.menu_sides_btn{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    margin:20px; 
+}
+
+.menu_button3{
+    background: #F5FBFC;
+    border-radius: 6px;
+    border: 1px solid rgba(97, 114, 131, 0.2);
+    margin-top: 50px; 
+    margin-left: 30px;
+    width: 147px;
+
+}
+
+.menu_drinks_btn{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    margin:20px; 
+}
+
+.menu_cards{
+    display: flex;
+    padding-bottom: 65px;
+}
+
+.burger_dreams{
+    display: flex;
+    width: 549px;
+    margin-top: 50px;
+    margin: 20px;
+    padding-bottom: 26px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+
+}
+.burger_dreams_content{
+    padding-top:30px;
+    text-align: left;
+}
+
+.burger_dreams_img{
+    margin: 20px;
+    /* position: relative; */
+}
+
+.burger_dreams_price{
+    /* position: absolute;  */
+    /* margin-top:-25px;
+    left:556px;   */
+    color:#35B8BE;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.burger_dreams_title{
+    color:#08090A;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.burger_dreams_text{
+    padding-top: 18px;
+    color:#546285;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.burger_dreams_amount_info{
+    display: flex;
+}
+
+.burger_dreams_amount{
+    width: 60px;
+    height: 45px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 27px;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+}
+
+.burger_dreams_add_button{
+    margin-left: 18px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    width: 115px;
+    height: 45px;
+    color:#000000;
+    font-size: 16px;
+    background-color: #35B8BE;
+}
+
+.dreams_content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.burger_dreams_button{
+margin-top:84px ;
+background-color: #35B8BE;
+color: #FFFFFF;
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size:17px;
+border-radius: 6px;
+border: none;
+margin-bottom: 140px;
+}
+
+.burger_dreams_btn{
+    margin: 20px;
+}
+
+
+@media (max-width:998px){
+    .menu_title{
+        justify-content: center;
+    }
+
+    .menu_cards{
+        flex-direction: column;
+        
+    }
+
+    .menu_cards{
+        padding-top: 40px;
+    }
+
+    .burger_dreams{  
+        width: 100%;
+    }
+
+    .burger_dreams_price{
+        margin-top: 20px;
+    }
+
+    .burger_dreams_amount{
+        width: 40px;
+        height: 35px;
+        padding-left: 14px;
+    }
+    
+    .burger_dreams_add_button{
+        padding: 5px 20px;
+    }
+
+    .burger_dreams_title, .burger_dreams_text, .burger_dreams_price{
+        width: 100%;
+        font-size: 10px;
+    }
+}
